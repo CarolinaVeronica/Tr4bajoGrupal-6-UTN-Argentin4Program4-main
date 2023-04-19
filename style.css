@@ -415,7 +415,7 @@ h2.titulo-prueba,h3.titulo-prueba {
     margin: 0 auto;
  }
 
- form,.contenedor-ubicacion, .contenedor-redes{
+.contenedor-ubicacion, .contenedor-redes{
     margin: 40px 0;
  }
 
@@ -429,7 +429,7 @@ h2.titulo-prueba,h3.titulo-prueba {
 
  .enviar{
     display: block;
-    width: 40%;
+    width: 55%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
@@ -492,7 +492,7 @@ h4, .direccion, .grupo{
 /*** modifique esta parte para agregar  la imagen de fondo ***/
 
 .tablalogin{
-   background-image: url(images/bg.jpeg);
+   background-image: url(images/Login.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -510,6 +510,11 @@ h4, .direccion, .grupo{
     
 }
 
+div#formularioregistro{
+   padding: 15px;
+
+}
+
 
 
 #help{
@@ -520,6 +525,11 @@ h4, .direccion, .grupo{
  #reg{
    color: #f9f9f9;
    font-size: large;
+ }
+
+ h2#Bienvenidos{
+   margin: 0;
+   padding: 15px;
  }
 
  
